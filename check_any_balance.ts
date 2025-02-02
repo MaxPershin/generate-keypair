@@ -9,7 +9,6 @@ import {
 import { getKeypairFromEnvironment, getKeypairFromFile } from "@solana-developers/helpers";
 
 //Args are -> [2] - type of network [3] - address
-
 //TODO - create name resolver for short names such as toly.sol
 
 const suppliedClusterName = process.argv[2];
